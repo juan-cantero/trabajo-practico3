@@ -1,8 +1,8 @@
 public class tp3 {
 
     public static void main(String[] args) {
-        Ex1 factorial = new Ex1();
-        System.out.println(factorial.factorial(5));
+        //Ex1 factorial = new Ex1();
+        //System.out.println(factorial.factorial(5));
 
         /*Ex2 fibonacci = new Ex2();
         System.out.println(fibonacci.fibonacci(5));
@@ -20,7 +20,10 @@ public class tp3 {
        //System.out.println(power.isPower(64,4));
        //Ex8 triangular = new Ex8();
        //System.out.println(triangular.triangular(3));
-        Ex9 triangle = new Ex9();
-        System.out.println(triangle.pascal(2,2));
+       // Ex9 triangle = new Ex9();
+        //System.out.println(triangle.pascal(2,2));
+        Ex10 vector = new Ex10();
+        int[] list1 = {3,4,3,4,4};
+        System.out.println(vector.sumarVector(list1,list1.length -1));
     }
 }
